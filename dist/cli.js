@@ -336,6 +336,7 @@ const formatCommitMessage = (state) => {
     width: MAX_LINE_WIDTH
   };
   let head = '';
+  let scope = '';
 
   if (answers.scope && answers.scope !== 'none') {
     scope = `(${answers.scope})`;
@@ -375,7 +376,7 @@ const formatCommitMessage = (state) => {
     msg += '\n\n' + closedIssueEmoji + 'Closes: ' + issues;
   }
 
-  msg += '\n\n' + '[' + answers.type + ']';
+  msg += '\n\n' + scope + ' [' + answers.type + ']';
 
   return msg;
 };
