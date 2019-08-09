@@ -9,9 +9,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/yellowme/git-cz.git"
+    "url": "git+ssh://git@github.com/yellowme/git-cy.git"
   },
-  "homepage": "https://github.com/yellowme/git-cz",
+  "homepage": "https://github.com/yellowme/git-cy",
   "license": "Unlicense",
   "scripts": {
     "lint": "yarn eslint",
